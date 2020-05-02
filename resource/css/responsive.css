@@ -1,0 +1,103 @@
+@media screen and (max-width: 1170px) {
+    .hero-text-box h1 {
+        font-size: 500%;
+    }
+    .row,
+    .hero-text-box {
+    max-width: 980px;
+}
+    .logo {
+        display: inline-block;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+}
+@media screen and (max-width: 980px) {
+    body {
+        font-size: 8px;
+    }
+    .row,
+    .hero-text-box {
+    max-width: 768px;
+}
+
+    cd-main-nav ul li a {
+        display: block;
+    }
+    .hero-text-box h1 {
+        font-size: 450%;
+    }
+    .grid-wellcome-container {
+    grid-template-columns: 1fr;
+}
+    .grid-serivces-container,
+    .grid-portfolio-container,
+    .grid-blog-container,
+    .grid-team-container,
+    .grid-pricing-container {
+        grid-template-columns: 1fr 1fr;  
+}
+
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 7px;
+    }
+    .row,
+    .hero-text-box {
+    max-width: 480px;
+}
+    .hero-text-box h1 {
+        font-size: 450%;
+    }
+    .grid-serivces-container,
+    .grid-portfolio-container,
+    .grid-blog-container,
+    .grid-team-container,
+    .grid-pricing-container,
+    .grid-contact-container {
+        grid-template-columns: 1fr;  
+}
+    .grid-contact-items input,
+    .grid-contact-items textarea  {
+        float: none;   
+    }
+    .fotter p {
+        font-size: 150%;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 6px;
+    }
+    .row,
+    .hero-text-box {
+    max-width: 300px;
+}
+    .hero-text-box h1 {
+        font-size: 400%;
+    }
+  
+    .hero-text-box a  {
+    padding: 5px 10px;
+    font-size: 80%;
+    
+}
+}
+@media screen and (max-width: 360px) {
+    body {
+        font-size: 6px;
+    }
+    .row,
+    .hero-text-box {
+    max-width: 300px;
+}
+    .hero-text-box h1 {
+        font-size: 300%;
+    }.hero-text-box p {
+        font-size: 200%;
+    }
+  
+
+}
